@@ -1,14 +1,27 @@
 import React from "react";
-
+import Emojing from "./Emojing";
+import emojipedias from "../emojipedia"
+function emojingCreate(emojipedia){
+  return (
+  <Emojing
+  id= {emojipedia.id}
+  key = {emojipedia.id}
+  name={emojipedia.name}
+  emoji= {emojipedia.emoji}
+  meaning={emojipedia.meaning}
+  />
+  )
+}
 function App() {
   return (
     <div>
       <h1>
         <span>emojipedia</span>
       </h1>
-
       <dl className="dictionary">
-        <div className="term">
+      {emojipedias.map(emojingCreate)}
+
+  {/*       <div className="term">
           <dt>
             <span className="emoji" role="img" aria-label="Tense Biceps">
               💪
@@ -45,7 +58,7 @@ function App() {
             face is laughing boundlessly. The emoji version of “rofl“. Stands
             for „rolling on the floor, laughing“.
           </dd>
-        </div>
+        </div> */}
       </dl>
     </div>
   );

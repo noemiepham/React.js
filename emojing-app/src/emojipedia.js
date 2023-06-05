@@ -1,4 +1,4 @@
-const emojipedia = [
+const emojipedias = [
   {
     id: 1,
     emoji: "💪",
@@ -19,5 +19,14 @@ const emojipedia = [
     name: "Rolling On The Floor, Laughing",
     meaning:
       "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
+  },
+  {
+    id: 4,
+    emoji: "🥸",
+    name: "Disguised face",
+    meaning:
+      "With funny glasses, fake eyebrows, a bulbous nose and a glued-on mustache, the 🥸 emoji shows a disguised face. This emoji is used to indicate that someone wants to hide their identity or intentions. It can also express a desire to get to the bottom of something without being recognized. Additionally, it is a symbol of carnival, where people dress up and take on different roles. The characteristics of this disguised face come from the “Groucho mask“ or “Groucho glasses“, designed in reference to the caricature of Julius Henry Marx in the Marx Brothers films. These humorous films were very popular in the 1930s and 1940s, and the mask has been a staple of novelty stores since the 1940s."
   }
 ];
+
+export default emojipedias;
