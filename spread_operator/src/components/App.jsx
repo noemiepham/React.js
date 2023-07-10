@@ -1,31 +1,28 @@
 import React, { useState } from "react";
+import Input from "./Input";
+
 
 function App(){
-     const [inputText, setInput] = useState("");
      const [items, setItems] = useState([]);
-     function handleText(event){
-          const newText = event.target.value;
-          setInput(newText);
-     }
-     function handleItems(prev){
+     function handleItems(inputText){
           setItems(prev => {return [...prev, inputText]});
-          setInput("")
+    
      }
      return (
      <div className="container">
           <div className="heading">
                <h1>TodoList</h1>
           </div>
-          <div className="form">
-               <input type="text" value={inputText} onChange={handleText}
-               className="form-control" name="" placeholder="" />
-          <button
-          onClick={handleItems}
-          ><span>Add</span></button>
-          </div>
+          <Input 
+          addOn = {handleItems}
+          />    
           <div>
                <ul>
-                    {items.map(item => (<li key={item}> {item} </li>))}
+                    {items.map(item => (
+                         <li key={item}
+                         id = {item}
+                         text={item}
+                         > {item} </li>))}
                </ul>
           </div>
      </div>
