@@ -1,0 +1,66 @@
+.flex-box {
+     display: flex;
+     align-items: center;
+     background-color: red;
+     
+}
+.container {
+     width: 300px;
+     height: 300px;
+     justify-content: center;
+}
+
+ span {
+     margin: 5px;
+     background-color: orange;
+     border: 1px black solid;
+}
+
+.container1 {
+     width: 300px;
+     height: 100px;
+     justify-content: space-between;
+     border-radius: 30px;
+}
+
+.container2 {
+     height: 100px;
+     width: 100%;
+     border-radius: 30px;
+     justify-content: space-between;
+}
+.container3 {
+
+     border: 2px solid black;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+
+     object-fit:contain 
+}
+
+img {
+     width: 300px;
+     height: 300px;
+     border: 1px solid red;
+}
+.container3 div > div {
+     text-align: center;
+     background-color: rgb(13, 228, 206);
+}
+
+
+.container4 {
+     display: flex;
+     overflow: auto;
+     white-space: nowrap;
+     gap: 10px
+}
+.container6 {
+     width: 100%;
+     height: 100vh;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     background-image: url(chat3.jpeg);
+}
