@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #233142;
+  color: whitesmoke;
+}
+
+p {
+  font-size: 30px;
+}
+
+span {
+  margin: 10px;
+  font-size: 2rem;
+}
