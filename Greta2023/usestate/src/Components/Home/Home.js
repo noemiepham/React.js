@@ -20,6 +20,9 @@ export default function Home() {
           <li>
             <Link to="PopUp">PopUp</Link>
           </li>
+          <li>
+            <Link to="Currency">Currency</Link>
+          </li>
         </ul>
       </nav>
     </div>

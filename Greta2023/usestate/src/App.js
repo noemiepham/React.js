@@ -7,6 +7,7 @@ import Carousels from "./Components/Selections/Components/Carousels/Carousels";
 import Configurateur from "./Components/Configurateur/Configurateur";
 import PopUp from "./Components/PopUp/Popup";
 import Home from "./Components/Home/Home";
+import Currency from "./Components/Currency/Currency";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="Carousels" element={<Carousels />} />
         <Route path="Configurateur" element={<Configurateur />} />
         <Route path="PopUp" element={<PopUp />} />
+        <Route path="Currency" element={<Currency />} />
       </Routes>
     </BrowserRouter>
   );
