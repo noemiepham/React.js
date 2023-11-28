@@ -1,0 +1,51 @@
+.selector1 {
+     height: 150px;
+     margin: 10px;
+     width: 150px;
+}
+
+.orange {
+     height: 150px;
+     margin: 10px;
+     width: 150px;
+     background-color: orange;
+     border: 2px solid #000;
+     cursor: help;
+}
+
+.green {
+     height: 150px;
+     margin: 10px;
+     width: 150px;
+
+     background-color: rgb(0, 255, 85);
+     border: 2px solid #d81717;
+}
+
+
+.selecteursContainer {
+     display: flex;
+     justify-content: space-around;
+
+}
+
+.imgSelector {
+     height: 150px;
+     margin: 10px;
+     width: 150px;
+}
+
+.hiddenImage {
+     height: 150px;
+     margin: 10px;
+     width: 150px;
+     background-color: orange;
+     border: 2px solid #000;
+     border-radius: 75px;
+     cursor: help;
+}
+
+span {
+     font-size: 20px;
+     color: white;
+}

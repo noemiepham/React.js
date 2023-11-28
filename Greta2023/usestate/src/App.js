@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Compteurs from "./Components/Compteurs/Compteurs";
+import Selections from "./Components/Selections/Selecters";
+import Carousels from "./Components/Selections/Components/Carousels/Carousels";
+import Configurateur from "./Components/Configurateur/Configurateur";
+import PopUp from "./Components/PopUp/Popup";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="compteurs" element={<Compteurs />} />
+        <Route path="Selections" element={<Selections />} />
+        <Route path="Carousels" element={<Carousels />} />
+        <Route path="Configurateur" element={<Configurateur />} />
+        <Route path="PopUp" element={<PopUp />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

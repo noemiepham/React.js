@@ -1,0 +1,32 @@
+.configurateur {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     min-width: 50%;
+     height: 100%;
+}
+
+.configurateur>div {
+     display: flex;
+     flex-direction: column;
+     min-width: 50%
+}
+
+
+
+.configTitle {
+     background-color: #dfb10c;
+     border: 1px solid #000;
+     color: #fff;
+     font-weight: 700;
+     padding: 20px;
+     text-align: center;
+     font-size: 30px;
+}
+
+.configNo {
+     text-align: center;
+     min-width: 50%;
+     border: 1px solid #dfb10c;
+}

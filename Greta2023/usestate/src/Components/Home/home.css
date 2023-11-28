@@ -1,0 +1,29 @@
+.home {
+     font-size: 40px;
+}
+
+.home nav ul {
+     display: flex;
+     gap: 20px;
+
+}
+
+.home nav ul li {
+     list-style: none;
+     border: 1px solid white;
+     background: white;
+     padding: 5px;
+     border-radius: 30px;
+
+}
+
+.home nav ul li a {
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+
+
+}
+
+h1 {
+     color: white;
+}
