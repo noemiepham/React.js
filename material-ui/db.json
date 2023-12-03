@@ -29,6 +29,12 @@
       "details": "20 july",
       "category": "Todos",
       "id": 5
+    },
+    {
+      "title": "to do lis",
+      "details": "what do you want to do ",
+      "category": "Work",
+      "id": 6
     }
   ]
 }
